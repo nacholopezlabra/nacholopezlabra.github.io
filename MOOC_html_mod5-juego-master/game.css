@@ -1,0 +1,40 @@
+html {
+  overflow: hidden;
+}
+
+.Opponent {
+	animation: rotation 0s infinite linear;
+	-webkit-animation: rotation 0s infinite linear;
+}
+
+.paused .Opponent {
+	animation: none;
+	-webkit-animation: none;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.gamebutton {
+	border: none;
+	background: #ddd;
+	color: #333;
+	padding: 10px 20px;
+	outline: none;
+	font-family: monospace;
+	cursor: pointer;
+}
+body {
+
+background-image:url(./assets/fondo.jpg);
+padding-bottom: 0%;
+
+}
